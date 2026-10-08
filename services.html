@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | TechNova</title>
+
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- TechNova CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Services page CSS -->
+    <link rel="stylesheet" href="services.css">
+    <style>
+          .navbar {
+            background: #111827;
+            box-shadow: 0 3px 15px rgba(0,0,0,.2);
+        }
+
+        .navbar-brand {
+            color: #f44336 !important;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .navbar-brand i {
+            color: white;
+        }
+
+        .nav-link {
+            color: white ;
+            margin: 0 8px;
+        }
+
+        .nav-link:hover {
+            color: #f44336 ;
+        }
+         footer {
+            background: #111827;
+            color: white;
+        }
+
+        footer a {
+            color: #ddd;
+        }
+
+        footer a:hover {
+            color: #f44336;
+            text-decoration: none;
+        }
+
+        .social-icons a {
+            font-size: 22px;
+            margin-right: 15px;
+        }
+       
+    </style>
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-cpu"></i> TechNova
+            </a>
+
+            <button class="navbar-toggler bg-light"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ================= HERO ================= -->
+    <section class="services-hero">
+        <div class="container">
+            <h1>Our <span>Services</span></h1>
+            <p>Complete technology solutions for your business.</p>
+        </div>
+    </section>
+
+
+    <!-- ================= SERVICES ================= -->
+    <section class="py-5 bg-light">
+        <div class="container">
+
+            <div class="row">
+
+                <!-- 1. Web Development -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card service-card h-100 text-center">
+                        <img src="images/web.jpg" alt="Laptop showing website code">
+                        <div class="card-body">
+                            <i class="bi bi-code-slash service-icon"></i>
+                            <h4>Web Development</h4>
+                            <p>
+                                We develop modern and responsive websites using HTML, CSS, JavaScript and modern frameworks.
+                            </p>
+                            <a href="contact.html" class="btn btn-danger btn-sm rounded-pill px-3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. App Development -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card service-card h-100 text-center">
+                        <img src="images/app.jpg" alt="Smartphone with mobile apps">
+                        <div class="card-body">
+                            <i class="bi bi-phone service-icon"></i>
+                            <h4>App Development</h4>
+                            <p>
+                                We build powerful mobile applications with user-friendly and modern interfaces.
+                            </p>
+                            <a href="contact.html" class="btn btn-danger btn-sm rounded-pill px-3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Cloud Solutions -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card service-card h-100 text-center">
+                        <img src="images/cloud.jpg" alt="Cloud computing over a night city">
+                        <div class="card-body">
+                            <i class="bi bi-cloud service-icon"></i>
+                            <h4>Cloud Solutions</h4>
+                            <p>
+                                Secure and scalable cloud infrastructure solutions for modern organizations.
+                            </p>
+                            <a href="contact.html" class="btn btn-danger btn-sm rounded-pill px-3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Cyber Security -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card service-card h-100 text-center">
+                        <img src="images/security.jpg" alt="Padlock representing cyber security">
+                        <div class="card-body">
+                            <i class="bi bi-shield-check service-icon"></i>
+                            <h4>Cyber Security</h4>
+                            <p>
+                                Protect your business data and systems using modern security solutions.
+                            </p>
+                            <a href="contact.html" class="btn btn-danger btn-sm rounded-pill px-3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Database Solutions -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card service-card h-100 text-center">
+                        <img src="images/cloud.jpg" alt="Cloud data storage">
+                        <div class="card-body">
+                            <i class="bi bi-database service-icon"></i>
+                            <h4>Database Solutions</h4>
+                            <p>
+                                Reliable database design, management, optimization and integration.
+                            </p>
+                            <a href="contact.html" class="btn btn-danger btn-sm rounded-pill px-3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Digital Transformation -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card service-card h-100 text-center">
+                        <img src="images/project1.jpg" alt="Online shopping and digital business">
+                        <div class="card-body">
+                            <i class="bi bi-graph-up-arrow service-icon"></i>
+                            <h4>Digital Transformation</h4>
+                            <p>
+                                Transform your business using modern technology and digital strategies.
+                            </p>
+                            <a href="contact.html" class="btn btn-danger btn-sm rounded-pill px-3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= CALL TO ACTION ================= -->
+    <section class="cta-section bg-dark text-white text-center py-5">
+        <div class="container">
+            <h2>Need a Custom IT Solution?</h2>
+            <p>Let's build something amazing together.</p>
+            <a href="contact.html" class="btn btn-danger btn-sm rounded-pill px-3">Contact Us</a>
+        </div>
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="pt-5 pb-3">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-5 mb-4">
+
+                    <h4>
+                        <i class="bi bi-cpu"></i> TechNova
+                    </h4>
+
+                    <p>
+                        Innovative IT solutions for a smarter digital future.
+                    </p>
+
+                    <div class="social-icons">
+
+                        <a href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 mb-4">
+
+                    <h5>Quick Links</h5>
+
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="about.html">About</a></p>
+                    <p><a href="projects.html">Projects</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+
+                </div>
+
+                <div class="col-md-4 mb-4">
+
+                    <h5>Contact</h5>
+
+                    <p>
+                        <i class="bi bi-geo-alt"></i>
+                        Pune, Maharashtra
+                    </p>
+
+                    <p>
+                        <i class="bi bi-envelope"></i>
+                        info@technova.com
+                    </p>
+
+                    <p>
+                        <i class="bi bi-telephone"></i>
+                        +91 98765 43210
+                    </p>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <p class="text-center mb-0">
+                &copy; 2026 TechNova IT Solutions.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Scripts: jQuery must load BEFORE Bootstrap (the bundle already includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+/* =========================================================
+   TechNova - Services page styles
+   (only loaded by services.html)
+   ========================================================= */
+
+
+/* ---------- HERO BANNER ---------- */
+.services-hero {
+    min-height: 420px;
+    padding-top: 70px;              /* keeps the text clear of the fixed navbar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background:
+        linear-gradient(rgba(17, 24, 39, 0.78), rgba(17, 24, 39, 0.78)),
+        url('images/hero.jpg');  /* ../ because this file is inside the css folder */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.services-hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.services-hero h1 span {
+    color: #f44336;
+}
+
+.services-hero p {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+}
+
+
+/* ---------- SERVICE CARDS ---------- */
+.service-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+}
+
+.service-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.service-icon {
+    font-size: 2.8rem;
+    color: #f44336;
+    line-height: 1;
+}
+
+.service-card h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 12px 0 10px;
+}
+
+.service-card p {
+    font-size: 0.95rem;
+    color: #212529;
+    margin-bottom: 12px;
+}
+
+
+/* ---------- CALL TO ACTION STRIP ---------- */
+.cta-section h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
+/* ---------- SMALL SCREENS ---------- */
+@media (max-width: 576px) {
+    .services-hero {
+        min-height: 340px;
+    }
+
+    .services-hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .service-card img {
+        height: 200px;
+    }
+}
